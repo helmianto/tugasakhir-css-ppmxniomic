@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profil - Tugas Akhir Niomic</title>
+    <!-- online -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+    <!-- offline -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Web Profil</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Beranda <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./project.html">Daftar Proyek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/slider1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/slider2.png" alt="Second slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container d-flex justify-content-center mt-5 mb-5">
+        <h3>Sekilas Tentang Proyek yang Pernah Saya Buat</h3>
+    </div>
+
+    <div class="container-fluid mb-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-4">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="" src="./img/slider1.png" alt="Card image cap" style="height: 200px; width: 380px; ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="http://farmer.traseon.com/" target="_blank">Traseon Farmer</a></h4>
+                        <p class="card-text" style="text-align: justify;">Website <b>Traseon Farmer</b> ini saya buat menggunakan framework CodeIgniter 3. Website ini digunakan untuk mengelola data, manajemen <i>supply chain</i> dan mentracking data-data yang berhubungan dengan proses bisnis milik Yayaysan Hutan Tropis (YHT).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="" src="./img/slider2.png" alt="Card image cap" style="height: 200px; width: 380px; ">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="http://kimia.glabs.id/login" target="_blank">GLabs</a></h4>
+                        <p class="card-text" style="text-align: justify;">Website <b>GLabs</b> ini saya buat menggunakan framework Laravel. Website ini memiliki fungsi untuk mengelola data peminjaman alat labarotarium yang ada di Laboratorium Kimia UII Yogyakarta. Terdapat banyak user meliputi dosen, mahasiswa, dan para peneliti yang menggunakan website tersebut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small special-color-dark pt-4">
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://niomic.com/" target="_blank"> Helmianto</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel()
+    </script>
+</body>
+</html>
